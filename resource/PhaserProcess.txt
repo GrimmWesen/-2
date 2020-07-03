@@ -1,0 +1,152 @@
+First¼¯:
+first(1): {f e ( }
+first(2): {e }
+first(4): {@ m }
+first(5): {d @ c }
+first(6): {d @ c }
+first(A): {@ a }
+first(B): {d c }
+first(C): {d @ }
+first(D): {e }
+first(E): {d @ c }
+first(F): {g d e @ c n k }
+first(G): {@ [ }
+first(H): {f e ( }
+first(I): {f e ( }
+first(J): {f e ( }
+first(K): {@ i }
+first(L): {@ * / }
+first(M): {d c }
+first(N): {@ , }
+first(O): {@ p }
+first(P): {f e s ( { }
+first(Q): {f }
+first(R): {, }
+first(S): {d @ c a }
+first(T): {g e @ n k }
+first(U): {d c }
+first(V): {e }
+first(W): {g }
+first(X): {k }
+first(Y): {n }
+first(Z): {p }
+_____________________________________________________________________
+Follow¼¯:
+follow(1): {; ) }
+follow(2): {) }
+follow(4): {g e n } k }
+follow(5): {g e n } k }
+follow(6): {# }
+follow(A): {# d c }
+follow(B): {# d c }
+follow(C): {c }
+follow(D): {p ] * ; ( ) j / h , i }
+follow(E): {) }
+follow(F): {} }
+follow(G): {p ; * ] ( ) j / h , i }
+follow(H): {; * ] ) / , h i }
+follow(I): {; ) , h }
+follow(J): {; ) , h i }
+follow(K): {; ) , h }
+follow(L): {; ) , h i }
+follow(M): {; ) , }
+follow(N): {) }
+follow(O): {; ) , }
+follow(P): {; ) , }
+follow(Q): {} }
+follow(R): {} }
+follow(S): {# }
+follow(T): {} }
+follow(U): {g d e c n } k }
+follow(V): {f g e n ( } k }
+follow(W): {g e n } k }
+follow(X): {g e n } k }
+follow(Y): {g e n } k }
+follow(Z): {f g e n } ( k }
+_____________________________________________________________________
+Select¼¯:
+No.0 :# d c a 
+No.1 :a 
+No.2 :# d c 
+No.3 :# 
+No.4 :d c 
+No.5 :d c 
+No.6 :d 
+No.7 :c 
+No.8 :e 
+No.9 :[ 
+No.10 :p ; * ] ( ) j / h , i 
+No.11 :( 
+No.12 :e 
+No.13 :f 
+No.14 :f e ( 
+No.15 :f e ( 
+No.16 :* 
+No.17 :/ 
+No.18 :; ) , h i 
+No.19 :; ) , h 
+No.20 :i 
+No.21 :) 
+No.22 :d c 
+No.23 :d c 
+No.24 :p 
+No.25 :; ) , 
+No.26 :f e ( 
+No.27 :{ 
+No.28 :s 
+No.29 :f 
+No.30 :) 
+No.31 :, 
+No.32 :) 
+No.33 :, 
+No.34 :g d e c n } k 
+No.35 :g e n } k 
+No.36 :d c 
+No.37 :d c 
+No.38 :} 
+No.39 :e 
+No.40 :g 
+No.41 :k 
+No.42 :n 
+No.43 :e 
+No.44 :p 
+No.45 :g 
+No.46 :f e ( 
+No.47 :e 
+No.48 :k 
+No.49 :m 
+No.50 :g e n } k 
+No.51 :n 
+_____________________________________________________________________
+   (   )   *   ,   /   ;   [   ]   a   b   c   d   e   f   g   h   i   j   k   m   n   p   s   {   }   #
+1   46                                    46   46                                       
+2                                       47                                          
+4                                       50      50            50   49   50            50      
+5                                 36   36   35      35            35      35            35      
+6                                 4   4                                          3   
+A                           1      2   2                                          2   
+B                                 5   5                                             
+C                                 7   6                                             
+D                                       8                                          
+E      21                           22   22                                             
+F                                 34   34   34      34            34      34            34      
+G   10   10   10   10   10   10   9   10                        10   10   10            10               
+H   11                                    12   13                                       
+I   14                                    14   14                                       
+J   15                                    15   15                                       
+K      19      19      19                              19   20                              
+L      18   16   18   17   18                              18   18                              
+M                                 23   23                                             
+N      32      33                                                                     
+O      25      25      25                                                24               
+P   26                                    26   26                           28   27         
+Q                                          29                                       
+R            31                                                                     
+S                           0      0   0                                          0   
+T                                       39      40            41      42            38      
+U                                 37   37                                             
+V                                       43                                          
+W                                             45                                    
+X                                                         48                        
+Y                                                               51                  
+Z                                                                  44               

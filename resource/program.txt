@@ -1,0 +1,22 @@
+import java;
+import math;
+import util;
+
+public int f1(int x){
+  // string s1 = "abc";
+   int x1 =1;
+   for(int i=1;i<10;i++){
+     x+=x1*i;
+   }
+   return x1;   
+}
+
+private void f2 (double x1,double x2 ){
+ //??×¢ÊÍ
+  if(x1>x2){
+     res=1;
+  }else{
+    res=0;
+  }
+   return res;   
+}
